@@ -1,0 +1,41 @@
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.btn-row__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  border-width: 2px 2px 6px 2px;
+}
+
+.btn-row__icon i,
+.btn-row__icon span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-row__icon:first-child {
+  padding: 15px 75px;
+  border-radius: 20px;
+}
+
+.btn-row__icon-play span {
+  margin-left: 5px;
+}
+
+.btn-row__icon-heart,
+.btn-row__icon-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 15px;
+  border: solid black;
+  border-width: 2px 2px 6px 2px;
+  border-radius: 50%;
+}

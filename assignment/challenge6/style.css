@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  width: 500px;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(251, 200, 198);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+header i {
+  font-size: 28px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.search__bar {
+  position: sticky;
+  width: 450px;
+  color: rgb(177, 172, 172);
+  background-color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-top: -20px;
+  margin-left: 25px;
+  box-shadow: 0px 10px 10px -5px rgb(177, 172, 172);
+}
+
+.search__bar__icon {
+  font-size: 18px;
+  position: absolute;
+  right: 12px;
+  top: 13px;
+}
+
+main {
+  background-color: white;
+  padding: 20px 30px;
+  height: 880px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+  width: 300px;
+  margin: 20px 0;
+}
+
+.main-book {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-book__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.main-book__cover img {
+  height: 180px;
+  border-radius: 10px;
+}
+
+.main-book__information {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main-book__name {
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.main-book__author {
+  font-size: 12px;
+  opacity: 0.4;
+  margin-bottom: 5px;
+}
+
+.main-book__rating {
+  color: rgb(255, 213, 0);
+  font-size: 14px;
+}
+
+.btn {
+  margin: 20px 0 20px 0;
+}
+.btn__essay,
+.btn__drama {
+  background-color: #e7e7e7;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.customer-use {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-use__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: rgb(255, 213, 0);
+  margin-right: 30px;
+}
+
+.customer-use__buy {
+  background-color: black;
+  color: white;
+  padding: 8px 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.rating {
+  color: rgb(255, 213, 0);
+  font-size: 8px;
+}
+
+.top-essay__list {
+  font-size: 10px;
+  display: flex;
+  padding-bottom: 30px;
+  overflow-x: scroll;
+}
+.top-essay__cover img {
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.top-essay__cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author__picture img {
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.author__intro {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.author__intro__name {
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.author__intro h4,
+.author__intro p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}

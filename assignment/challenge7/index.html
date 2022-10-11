@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pia's Challenge#7</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="screen left">
+      <div class="menu-bar">
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-search"></i>
+      </div>
+
+      <header class="singer">
+        <img
+          class="singer__pix"
+          src="https://yt3.ggpht.com/W1bb2Cvb0eZeyqyfJoDEcIIujfs6AbYXLGJSurw498mkqpO3ISTjpWg1UI0Nj_927adeKRUV=s900-c-k-c0x00ffffff-no-rj"
+        />
+        <div class="singer-info">
+          <span class="singer-info__name">Peder Elias</span>
+          <span class="singer-info__genre">Pop</span>
+        </div>
+      </header>
+
+      <div class="btns">
+        <span class="btns__shuffle">Shuffle</span>
+        <span class="btns__likes"><i class="fas fa-heart"></i>456,789</span>
+      </div>
+
+      <ul class="playlist">
+        <li class="playlist__song">
+          <img
+            class="playlist__cover"
+            src="https://musicmeta-phinf.pstatic.net/album/003/137/3137555.jpg?type=r480Fll&v=20220707182908"
+          />
+          <div class="playlist__data">
+            <span class="playlist__singer">Peder Elias</span>
+            <span class="playlist__title">BONFIRE</span>
+          </div>
+          <div class="playlist__btn">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+
+        <li class="playlist__song">
+          <img
+            class="playlist__cover"
+            src="https://musicmeta-phinf.pstatic.net/album/003/136/3136914.jpg?type=r480Fll&v=20220616133008"
+          />
+          <div class="playlist__data">
+            <span class="playlist__singer">Peder Elias</span>
+            <span class="playlist__title">FAVORITE REGRET (FEAT. SVAL)</span>
+          </div>
+          <div class="playlist__btn">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+
+        <li class="playlist__song">
+          <div class="playlist__current-playing">
+            <img
+              class="playlist__cover"
+              src="https://musicmeta-phinf.pstatic.net/album/005/835/5835254.jpg?type=r480Fll&v=20220425044031"
+            />
+            <span class="playlist__on"><i class="fas fa-music"></i></span>
+          </div>
+          <div class="playlist__data">
+            <span class="playlist__singer">Peder Elias</span>
+            <span class="playlist__title">LOVING YOU GIRL (FEAT. HKEEM)</span>
+          </div>
+          <div class="playlist__btn">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+
+        <li class="playlist__song">
+          <img
+            class="playlist__cover"
+            src="https://musicmeta-phinf.pstatic.net/album/007/514/7514067.jpg?type=r480Fll&v=20220618141708"
+          />
+          <div class="playlist__data">
+            <span class="playlist__singer">Peder Elias</span>
+            <span class="playlist__title">BETTER ALONE</span>
+          </div>
+          <div class="playlist__btn">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+      </ul>
+
+      <div class="player-controller">
+        <div class="player-controller__data">
+          <span class="player-controller__singer">Peder Elias</span>
+          <span class="player-controller__title"
+            >LOVING YOU GIRL <br />(FEAT. HKEEM)</span
+          >
+        </div>
+
+        <div class="player-controller__icons">
+          <span><i class="fas fa-step-backward"></i></span>
+          <span><i class="fas fa-pause"></i></span>
+          <span><i class="fas fa-step-forward"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen right">
+      <div class="menu-bar">
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+
+      <header class="album-cover">
+        <img
+          src="https://musicmeta-phinf.pstatic.net/album/005/835/5835254.jpg?type=r480Fll&v=20220425044031"
+        />
+
+        <div class="now-playing">
+          <h2 class="now-playing__title">
+            LOVING YOU GIRL <br />(FEAT. HKEEM)
+          </h2>
+          <h3 class="now-playing__singer">Peder Elias</h3>
+        </div>
+      </header>
+
+      <div class="player-bar">
+        <div class="player-bar__time">
+          <span class="player-bar__time--start">0:58</span>
+          <span class="player-bar__time--end">2:52</span>
+        </div>
+        <input type="range" min="1" max="200" value="58" step="1" />
+      </div>
+
+      <div class="play-btns">
+        <span class="play-btns--repeat"><i class="fas fa-retweet"></i></span>
+        <span class="play-btns--backward"
+          ><i class="fas fa-step-backward"></i
+        ></span>
+
+        <span class="play-btns--play"> <i class="fas fa-play"></i></span>
+
+        <span class="play-btns--forward"
+          ><i class="fas fa-step-forward"></i
+        ></span>
+        <span class="play-btns--shuffle"><i class="fas fa-random"></i></span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.selction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selection_list {
+  list-style: none;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+.selection__color {
+  display: flex;
+  align-items: center;
+}
+
+.selection__box-orange {
+  background-color: #f85a2a;
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 40px;
+}
+
+.selection__box-pink {
+  background-color: #fe89bb;
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 40px;
+}
+
+.selection__box-blue {
+  background-color: #1947e4;
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 40px;
+}
+
+.selection__box-mint {
+  background-color: #00c6ac;
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 40px;
+}
+
+.selection__text {
+  width: 220px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.selection__title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.selection__singer {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
